@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sculpture Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+    }
+    header {
+      background-color: #343a40;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #495057;
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      text-align: center;
+    }
+    nav a:hover {
+      background-color: #343a40;
+    }
+    .container {
+      padding: 20px;
+    }
+    .product {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .product-item {
+      background-color: white;
+      border: 1px solid #dee2e6;
+      border-radius: 5px;
+      margin: 10px;
+      padding: 20px;
+      width: 300px;
+      text-align: center;
+    }
+    .product-item img {
+      max-width: 100%;
+      height: auto;
+      border-bottom: 1px solid #dee2e6;
+      padding-bottom: 15px;
+    }
+    footer {
+      background-color: #343a40;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sculpture Store</h1>
+    <p>Your one-stop shop for beautiful sculptures</p>
+  </header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="container">
+    <section id="home">
+      <h2>Welcome to the Sculpture Store</h2>
+      <p>Discover our exclusive collection of stunning sculptures, handcrafted by talented artists from around the world.</p>
+    </section>
+    <section id="gallery" class="product">
+      <div class="product-item">
+        <img src="https://via.placeholder.com/300" alt="Sculpture 1">
+        <h3>Elegant Marble Sculpture</h3>
+        <p>$1,200.00</p>
+      </div>
+      <div class="product-item">
+        <img src="https://via.placeholder.com/300" alt="Sculpture 2">
+        <h3>Modern Abstract Sculpture</h3>
+        <p>$850.00</p>
+      </div>
+      <div class="product-item">
+        <img src="https://via.placeholder.com/300" alt="Sculpture 3">
+        <h3>Classic Bronze Sculpture</h3>
+        <p>$1,500.00</p>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>For inquiries, please email us at <a href="mailto:info@sculpturestore.com">info@sculpturestore.com</a></p>
+    </section>
+  </div>
+  <footer>
+    <p>&copy; 2024 Sculpture Store. All rights reserved.</p>
+  </footer>
+</body>
+</html>
